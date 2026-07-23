@@ -1,8 +1,8 @@
-# Loopa Assets
+# Savault Assets
 
-Static screenshot assets for **Loopa** — a curated archive of useful websites, tools, and digital resources.
+Static screenshot assets for **Savault** — a curated archive of useful websites, tools, and digital resources.
 
-This repository stores optimized website preview images used inside the Loopa interface. Assets are served through jsDelivr CDN and referenced in the Loopa CMS.
+This repository stores optimized website preview images used inside the Savault interface. Assets are served through jsDelivr CDN and referenced in the Savault CMS.
 
 ## Structure
 
@@ -19,13 +19,13 @@ screenshots/
 Thumbnail:
 
 ```txt
-https://cdn.jsdelivr.net/gh/thisisbremlo/loopa-assets@main/screenshots/thumbnails/example-thumbnail.webp
+https://cdn.jsdelivr.net/gh/thisisbremlo/savault-assets@main/screenshots/thumbnails/example-thumbnail.webp
 ```
 
 Fullpage screenshot:
 
 ```txt
-https://cdn.jsdelivr.net/gh/thisisbremlo/loopa-assets@main/screenshots/fullpages/example-fullpage.webp
+https://cdn.jsdelivr.net/gh/thisisbremlo/savault-assets@main/screenshots/fullpages/example-fullpage.webp
 ```
 
 ## Asset Guidelines
