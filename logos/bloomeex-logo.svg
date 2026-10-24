@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="147 182 960 960" width="100%" height="100%" role="img">
+  <defs>
+    <linearGradient id="blmx-grad-left" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#735af2"/>
+      <stop offset="65%" stop-color="#a458f4"/>
+      <stop offset="100%" stop-color="#c958db"/>
+    </linearGradient>
+
+    <linearGradient id="blmx-grad-right" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c958db"/>
+      <stop offset="45%" stop-color="#ee5897"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+
+    <linearGradient id="blmx-grad-lower-left" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b46bf0"/>
+      <stop offset="100%" stop-color="#d974df"/>
+    </linearGradient>
+
+    <linearGradient id="blmx-grad-lower-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eb659c"/>
+      <stop offset="60%" stop-color="#f57b77"/>
+      <stop offset="100%" stop-color="#f98d5c"/>
+    </linearGradient>
+
+    <linearGradient id="blmx-grad-sparkle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7d5df2"/>
+      <stop offset="50%" stop-color="#c45bf0"/>
+      <stop offset="100%" stop-color="#f87082"/>
+    </linearGradient>
+  </defs>
+
+  <g id="butterfly">
+    <!-- Upper Left Wing -->
+    <path d="M627 734 C613 563 431 362 223 348 C223 538 364 736 563 734 C587 735 608 735 627 734Z"
+          fill="url(#blmx-grad-left)"/>
+
+    <!-- Upper Right Wing -->
+    <path d="M627 734 C641 563 823 362 1031 348 C1031 538 890 736 691 734 C667 735 646 735 627 734Z"
+          fill="url(#blmx-grad-right)"/>
+
+    <!-- Lower Left Wing -->
+    <path d="M627 728 C505 729 345 836 332 1007 C487 969 601 872 627 728Z"
+          fill="url(#blmx-grad-lower-left)"/>
+
+    <!-- Lower Right Wing -->
+    <path d="M627 728 C749 729 909 836 922 1007 C767 969 653 872 627 728Z"
+          fill="url(#blmx-grad-lower-right)"/>
+
+    <!-- Sparkle -->
+    <path d="M627 317 C638 377 656 410 711 423 C659 436 638 467 627 530 C616 467 595 436 543 423 C598 410 616 377 627 317Z"
+          fill="url(#blmx-grad-sparkle)"/>
+  </g>
+</svg>
